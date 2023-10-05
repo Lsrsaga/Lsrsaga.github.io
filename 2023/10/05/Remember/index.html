@@ -11,7 +11,7 @@
   
   <title>
     
-      archive_a: 2023/9 
+      Remember 
       
       
       |
@@ -102,59 +102,110 @@
 
 
       <div class="flex-container">
-        <!-- 归档页，展示本站所有文章，按照年份降序归类，url形式：https://yoursite/archives/ -->
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
 
-<!-- last: 按年份把文章分组，当前遍历到的年份 -->
-<!-- now: 当前遍历到的文章的发布年份 -->
 
-<div class="container archives">
-  <div class="post-list">
-    
-        <!-- 后续文章的发布年份呈现 -->
-        <div class="content-title">
-          <h2>
-            <span>2023</span>
-          </h2>
+  <!-- LaTex Display -->
+
+  
+    <script async type="text/javascript" src="/plugins/mathjax/tex-chtml.js"></script>
+  
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    }
+  </script>
+
+
+
+
+
+  <!-- clipboard -->
+
+  
+    <script async type="text/javascript" src="/plugins/clipboard.min.js"></script>
+  
+  
+<script src="/js/codeCopy.js"></script>
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title">Remember</div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
+          2023-10-05 21:56:13
+        </span>
+        
+      </div>
+      <div class="markdown-body">
+        <ol>
+<li><strong>停止活在他人眼里。</strong>what do you care what other people think?</li>
+<li><strong>停止后悔。</strong></li>
+<li><strong>停止苛求完美。</strong>perfect is shit.</li>
+<li><strong>停止思虑过度。</strong></li>
+<li><strong>停止设限。</strong>人生的意义在于开拓而不是固守。</li>
+<li><strong>停止反复犹豫。</strong>积极地做决定</li>
+<li><strong>停止拖延。</strong>行动。</li>
+</ol>
+
+      </div>
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
+            
+              <a href="/2023/09/21/R-P-Feynman-s-advice/" target="_self">
+                <i class="iconfont icon-chevronleft"></i>
+                <span>Prev</span>
+              </a>
+            
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime mr-10" title="Update time"></i>
+              2023-10-05 21:56:13
+            </span>
+            
+          </div>
+          <div class="post-foot-prev">
+            
+          </div>
         </div>
       
-      <div class="post-item" title="Remember">
-        <div class="time-m-d">10-05</div>
-        <div class="title">
-          <a href="/2023/10/05/Remember/">
-            <span>Remember</span>
-          </a>
-        </div>
-      </div>
+    </div>
     
-      <div class="post-item" title="R.P.Feynman's advice">
-        <div class="time-m-d">09-21</div>
-        <div class="title">
-          <a href="/2023/09/21/R-P-Feynman-s-advice/">
-            <span>R.P.Feynman's advice</span>
-          </a>
-        </div>
-      </div>
+
     
-      <div class="post-item" title="随记">
-        <div class="time-m-d">09-14</div>
-        <div class="title">
-          <a href="/2023/09/14/%E9%9A%8F%E8%AE%B0/">
-            <span>随记</span>
-          </a>
-        </div>
-      </div>
-    
-      <div class="post-item" title="厌离秽土 欣求净土">
-        <div class="time-m-d">09-08</div>
-        <div class="title">
-          <a href="/2023/09/08/%E5%8E%8C%E7%A6%BB%E7%A7%BD%E5%9C%9F-%E6%AC%A3%E6%B1%82%E5%87%80%E5%9C%9F/">
-            <span>厌离秽土 欣求净土</span>
-          </a>
-        </div>
+      <div class="comments-container">
+        
+
+
+
+
+
+
+
       </div>
     
   </div>
-</div>
+
 
         
 <div class="footer">
@@ -409,6 +460,24 @@
 
 
         
+  
+    <div class="share-icon tools-bar-item">
+      <a href="javascript: void(0)" id="share-icon">
+        <i class="iconfont iconshare"></i>
+      </a>
+      <div class="share-content hidden">
+        
+          <a class="share-item" href="https://twitter.com/intent/tweet?text=' + Remember + '&url=' + http%3A%2F%2Fexample.com%2F2023%2F10%2F05%2FRemember%2F + '" target="_blank" title="Twitter">
+            <i class="iconfont icon-twitter"></i>
+          </a>
+        
+        
+          <a class="share-item" href="https://www.facebook.com/sharer.php?u=http://example.com/2023/10/05/Remember/" target="_blank" title="Facebook">
+            <i class="iconfont icon-facebooksquare"></i>
+          </a>
+        
+      </div>
+    </div>
   
   
 <script src="/js/shares.js"></script>
